@@ -1,0 +1,148 @@
+/* base */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+html,
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "ALS Ekibastuz";
+    font-weight: 700;
+    font-style: normal;
+    // font-family: 'Roboto', sans-serif;
+    color: #111419;
+    background-color: #ffffff;
+}
+body {
+    overflow: hidden;
+}
+
+@media (max-width: 992px) {
+    body {
+        overflow: inherit;
+    }
+}
+
+a,
+a:hover {
+    cursor: pointer !important;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer !important;
+}
+
+input:hover,
+button:hover {
+    cursor: pointer !important;
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1560px;
+    padding: 0 10px 0 10px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 992px;
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 576px;
+        padding: 0 20px 0 20px;
+    }
+}
+// fonts
+
+@font-face {
+    font-family: "ALS Ekibastuz";
+    src: url("../fonts/ekibastuz/Ekibastuz-Bold.eot");
+    src: local("ALS Ekibastuz Bold"), local("ALS-Ekibastuz-Bold"),
+        url("../fonts/ekibastuz/Ekibastuz-Bold.woff2") format("woff2"),
+        url("../fonts/ekibastuz/Ekibastuz-Bold.woff") format("woff"),
+        url("../fonts/ekibastuz/Ekibastuz-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ALS Ekibastuz";
+    src: url("../fonts/ekibastuz/Ekibastuz-Black.eot");
+    src: local("ALS Ekibastuz Black"), local("ALS-Ekibastuz-Black"),
+        url("../fonts/ekibastuz/Ekibastuz-Black.woff2") format("woff2"),
+        url("../fonts/ekibastuz/Ekibastuz-Black.woff") format("woff"),
+        url("../fonts/ekibastuz/Ekibastuz-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+// fonts
+/* base */

@@ -1,0 +1,357 @@
+.general {
+    height: 100vh;
+}
+// navigation
+.nav-btn {
+    font-family: "ALS Ekibastuz";
+    font-weight: 900;
+    font-style: normal;
+    background-color: #cc242a;
+    border-radius: 5px;
+    width: 100%;
+    padding: 13px 0;
+    width: 297px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    transition: 0.3s;
+    &:hover {
+        transform: scale(1.04);
+        transition: 0.3s;
+    }
+}
+.nav-btn-mob {
+    padding: 0;
+    width: 35px;
+    height: 34px;
+    background-color: transparent;
+    transition: 0.3s;
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../img/nav/number.svg);
+    }
+    &:hover {
+        transform: scale(1.06);
+        transition: 0.3s;
+    }
+}
+// navigation
+// main
+.main {
+    z-index: 0;
+    background: linear-gradient(180deg, #111419 0%, #002147 100%);
+    position: relative;
+}
+.quiz {
+    position: relative;
+    z-index: 0;
+}
+.flag {
+    width: 900px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.line-desc {
+    z-index: 0;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+}
+.line-mob {
+    z-index: 0;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+}
+.quiz-content {
+    z-index: 0;
+    display: flex;
+    position: relative;
+}
+.quiz-wrapper {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 115px;
+}
+.quiz-img-first {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-43%);
+    top: -16px;
+    z-index: -1;
+}
+.left-block {
+    z-index: -5;
+}
+.first-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 110%;
+    color: #ffffff;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.7);
+    max-width: 700px;
+    position: relative;
+    z-index: 0;
+    margin-top: 170px;
+    margin-bottom: 17px;
+    &::before {
+        position: absolute;
+        content: "";
+        display: table;
+        top: 50%;
+        transform: translateY(-50%) skewX(-10deg);
+        left: -240px;
+        width: 980px;
+        height: 125px;
+        background-color: #cc242a;
+        border-radius: 10px;
+        z-index: -1;
+    }
+}
+.first-title__mini {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 120%;
+    color: #ffffff;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin-bottom: 18px;
+    &::before {
+        position: absolute;
+        content: "";
+        display: table;
+        top: 50%;
+        transform: translateY(-50%) skewX(-10deg);
+        left: -340px;
+        width: 1000px;
+        height: 50px;
+        background-color: #4a5161;
+        border-radius: 7px;
+        z-index: -1;
+    }
+}
+.first-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ffffff;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+    max-width: 475px;
+}
+.btn-first {
+    margin-bottom: 61px;
+    max-width: 263px;
+}
+.right-info-1,
+.right-info-2,
+.right-info-3 {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 900;
+}
+.right-info-1 {
+    font-size: 40px;
+    line-height: 120%;
+    text-shadow: 1px 1px 0px #000000;
+}
+.right-info-2 {
+    font-size: 55px;
+    line-height: 120%;
+    text-decoration-line: underline;
+}
+.right-info-3 {
+    font-size: 28px;
+    line-height: 120%;
+    text-shadow: 1px 1px 0px #000000;
+}
+.quiz-general {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    padding-bottom: 20px;
+}
+.quiz-img {
+    margin-top: auto;
+    margin-bottom: -15px;
+}
+.general-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    color: #ffffff;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 35px;
+}
+.form {
+    max-width: fit-content;
+}
+.form-block {
+    margin-bottom: 55px;
+    display: flex;
+}
+.form-label {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+.label-quiz {
+    position: relative;
+    margin-bottom: 20px;
+    width: 375px;
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+.input-quiz {
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    border-radius: 6px;
+    position: absolute;
+}
+.text-quiz {
+    padding: 24px 0 24px 30px;
+    background-color: #f6f6f6;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #111419;
+}
+.input-quiz:checked + .text-quiz {
+    background-color: #cc242a;
+    color: #ffffff;
+}
+.btn-navigation {
+    display: flex;
+    margin-bottom: 85px;
+}
+.flag-last-step {
+    width: 1227px;
+    top: 0;
+    right: 136px;
+    position: absolute;
+    z-index: -1;
+}
+.general-text-lastStep {
+    margin-bottom: 61px;
+}
+.quiz-lastStep-footer__left {
+    margin-right: 80px;
+}
+.title-medium-lastStep {
+    margin-top: 75px;
+}
+.quiz-lastStep-footer {
+    padding-bottom: 40%;
+}
+.lastStep-from {
+    margin: 40px 135px 0 0;
+    padding: 100px 40px 105px;
+    height: fit-content;
+    background-color: #cc242a;
+    border-radius: 16px;
+    max-width: 506px;
+    width: 100%;
+}
+.text-form {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 95px;
+}
+.input-modal {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    font-family: "ALS Ekibastuz";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #878787;
+    padding: 24px 0 24px 46px;
+    width: 375px;
+
+    &:focus {
+        border: 1px solid #e2e2e2;
+    }
+    &:hover {
+        border: 1px solid #e2e2e2;
+    }
+}
+.btn-from {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #111419;
+    padding: 18px 0;
+    width: 375px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    &:focus {
+        border: 1px solid #ffffff;
+    }
+    &:hover {
+        border: 1px solid #ffffff;
+    }
+}
+// main
+
+// footer
+.footer {
+    background-position-y: -25px;
+    background-image: url(../img/footer/f-fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+}
+.title-footer {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+}
+.footer-img {
+    margin-right: 15px;
+}
+.footer-element__text {
+    font-family: ALS Ekibastuz;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+}
+// footer
