@@ -355,3 +355,207 @@
     line-height: 18px;
 }
 // footer
+// modal-thanks-quiz
+.modal-thanks-quiz {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    background: #cc242a;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    max-width: 585px;
+    width: 100%;
+    height: 670px;
+    padding: 35px 40px;
+}
+.modal-thanks-quiz__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #ffffff;
+}
+.modal-thanks-quiz__text {
+    font-family: "ALS Ekibastuz";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+// moda;-thanks-quiz
+
+// modal-btn
+.modal-content {
+    padding: 14px 11px;
+    background: #cc242a;
+    border-radius: 16px;
+}
+.modal-header {
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    padding: 35px 55px 75px;
+}
+.modal-btn-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.modal-btn-input {
+    font-family: "ALS Ekibastuz";
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 25px 0 25px 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #878787;
+    width: 100%;
+    max-width: 375px;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid #e2e2e2;
+    }
+    &:focus {
+        border: 1px solid #e2e2e2;
+    }
+}
+.btn-general {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #111419;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 375px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        border: 1px solid #ffffff;
+        transition: 0.3s;
+        transform: scale(1.04);
+    }
+    &:focus {
+        border: 1px solid #ffffff;
+    }
+}
+.modal-dialog {
+    max-width: 510px;
+    margin: 1.75rem auto;
+}
+.text-title-modal-btn {
+    font-family: "ALS Ekibastuz";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 120%;
+}
+.modal-btn-close-modal {
+    background-color: #ffffff;
+    right: 17px;
+    top: 20px;
+}
+.modal-btn-thanks {
+    background: #cc242a;
+    box-shadow: 0px 48px 50px -40px rgba(45, 31, 97, 0.5);
+    border-radius: 16px;
+    padding: 14px 12px;
+    position: fixed;
+    z-index: 10000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 510px;
+}
+.modal-btn-thanks__content {
+    padding: 115px 0 170px;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+}
+.modal-yhanks-btn-closed {
+    top: 20px;
+    right: 17px;
+    z-index: 100;
+}
+// modal-btn
+// thanks-list
+.thanks-list {
+    padding: 125px 0 10%;
+}
+.thanks-list__left {
+    margin-right: 67px;
+}
+.thanks-list__name {
+    font-family: "ALS Ekibastuz";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: #ffffff;
+}
+.thanks-list__name--span {
+    font-weight: 900;
+}
+.thanks-list__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    max-width: 270px;
+}
+.thanks__right--title {
+    font-family: "ALS Ekibastuz";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #ffffff;
+}
+.font-700 {
+    font-family: "ALS Ekibastuz";
+    font-weight: 700;
+    font-style: normal;
+}
+.font-900 {
+    font-family: "ALS Ekibastuz";
+    font-weight: 900 !important;
+    font-style: normal;
+}
+.thanks-list__list::before {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    display: table;
+    background-color: #cc242a;
+}
+.thanks-list-text__information {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.thanks-list__right {
+    max-width: 945px;
+    width: 100%;
+}
+// thanks-list
